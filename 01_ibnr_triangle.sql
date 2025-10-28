@@ -1,8 +1,5 @@
--- 01_ibnr_triangle.sql
--- Autor: Agus (adaptado para tesina)
--- Fecha: 2025-10-28
+-- Autor: Agustin Huczok
 -- Descripción: Consulta SQL para construir agregados mensuales de fraude y segmentos por retraso de notificación.
--- NOTA: Antes de ejecutar, verificá nombres de tablas y permisos. No incluir datos sensibles en el repo.
 
 WITH base AS (
   SELECT 
